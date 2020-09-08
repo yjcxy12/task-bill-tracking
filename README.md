@@ -21,6 +21,7 @@ _Please note, the API stores objects in-memory, there is no database, therefore 
 - Ability to modify a regular payment (name, amount, start date and frequency)
 - Ability to delete a regular payment
 - Web app should work on the latest version of Chrome
+- Unit test were appropriate
 
 ## Submission ##
 
