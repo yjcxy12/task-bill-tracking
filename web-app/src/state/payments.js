@@ -4,15 +4,12 @@ const paymentsSlice = createSlice({
   name: 'payments',
   initialState: [],
   reducers: {
-    createPayment: (state, action) => {
-      state.push(action.payload);
-      console.log(action.payload);
+    setPayments: (_, action) => {
+      return action.payload;
     },
-    updatePayment: (state, action) => console.log(action.payload),
-    deletePayment: (state, action) => console.log(action.payload),
   },
 });
 
 const { actions, reducer } = paymentsSlice;
-export const { createPayment, updatePayment, deletePayment } = actions;
+export const { setPayments } = actions;
 export default reducer;
