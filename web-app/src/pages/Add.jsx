@@ -1,12 +1,8 @@
 import React, { useCallback } from 'react';
 import { useHistory } from 'react-router-dom';
-import AddPaymentForm from '../components/payment/AddPaymentForm';
+import AddForm from '../components/paymentForm/AddForm';
 import { addPayment } from '../service';
-
-const paymentDateToStr = (payment) => ({
-  ...payment,
-  startDate: payment.startDate.format('YYYY-MM-DD'),
-});
+import { paymentDateToStr } from '../utils';
 
 const Add = () => {
   const history = useHistory();
@@ -32,7 +28,7 @@ const Add = () => {
       <h1>Add A Bill</h1>
       <h2>Enter your details</h2>
       <p>Keep track of your household spending by adding your bills</p>
-      <AddPaymentForm onSubmit={onSubmit} />
+      <AddForm onSubmit={onSubmit} />
     </div>
   );
 };

@@ -1,0 +1,30 @@
+.list-item {
+  border-bottom: 1px solid #8d99aa;
+  padding: 10px;
+  position: relative;
+}
+
+.list-item:hover {
+  background-color: #eee;
+}
+
+.list-item__first-row,
+.list-item__second-row {
+  display: flex;
+}
+
+.list-item__first-row {
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.list-item__second-row {
+  color: #8d99aa;
+  font-size: 16px;
+}
+
+.list-item--right {
+  right: 10px;
+  position: absolute;
+}

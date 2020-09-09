@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import dayjs from 'dayjs';
+import advancedFormat from 'dayjs/plugin/advancedFormat';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './index.css';
+
+dayjs.extend(advancedFormat);
 
 ReactDOM.render(
   <React.StrictMode>
