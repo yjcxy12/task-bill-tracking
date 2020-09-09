@@ -1,9 +1,13 @@
-# README #
+# Solution
+
+Please refer to [web-app readme](./web-app/README.md) for the implementation.
+
+# Task
 
 At WonderBill we allow users to manually keep track of any regular payments.
 These payments could be anything, but common examples are rent and mortgage payments.
 
-## Task Definition ##
+## Task Definition
 
 We would like you to build a React application that allows the management of regular payments.
 A basic React application has been provided that you may use as the base of your work, it is built using `Create React App` and includes `Redux Toolkit` and `React Router`.
@@ -11,7 +15,7 @@ A simple Node API has been provided that can be used to store, modify, retrieve 
 
 _Please note, the API stores objects in-memory, there is no database, therefore all objects are lost when the server is stopped!_
 
-## Requirements ##
+## Requirements
 
 - Built using React
 - State management handled by Redux
@@ -23,9 +27,9 @@ _Please note, the API stores objects in-memory, there is no database, therefore 
 - Web app should work on the latest version of Chrome
 - Unit test where appropriate
 
-## Submission ##
+## Submission
 
 Please provide a URL to a public repository containing your task submission.
 Instructions on how to run the script are useful to include.
 
-### Thank you for your time and effort! ###
+### Thank you for your time and effort!

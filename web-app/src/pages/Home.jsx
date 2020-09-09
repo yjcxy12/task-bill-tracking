@@ -28,7 +28,7 @@ const Home = () => {
       <h1 data-testid="home-title" className="home-title">
         Regular Payments
       </h1>
-      <div classNme="home-list-container">
+      <div className="home-list-container">
         <ul className="home-list">
           {payments.map((payment) => (
             <Link
