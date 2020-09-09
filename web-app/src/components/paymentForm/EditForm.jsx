@@ -24,7 +24,7 @@ const EditForm = ({ payment, setPayment, onSave: onSaveProp, onDelete }) => {
       <button type="button" onClick={onSave} disabled={!canSave}>
         Save
       </button>
-      <button type="button" onClick={onDelete} disabled={!canSave}>
+      <button type="button" onClick={onDelete}>
         Delete
       </button>
     </form>

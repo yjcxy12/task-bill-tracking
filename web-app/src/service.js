@@ -2,8 +2,8 @@ import config from './config';
 
 export const getPayment = async (id) => {
   const res = await fetch(`${config.host}/payments/${id}`);
-  const payments = await res.json();
-  return payments;
+  const payment = await res.json();
+  return payment;
 };
 
 export const getPayments = async () => {
